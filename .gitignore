@@ -7,7 +7,7 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
+# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Maven_Wrapper
 .mvn/wrapper/maven-wrapper.jar
 
 # Eclipse m2e generated files
@@ -15,3 +15,10 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+node_modules
+temp
+validation
+src/.env
+src/utils/setenv.js
+.idea
+
