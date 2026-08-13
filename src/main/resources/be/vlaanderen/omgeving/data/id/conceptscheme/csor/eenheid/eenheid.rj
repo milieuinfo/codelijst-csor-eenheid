@@ -4303,7 +4303,7 @@
   "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209" : { 
     "https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor" : [ { 
       "type" : "literal" ,
-      "value" : "0.01000000000000000000" ,
+      "value" : "100.00000000000000000000" ,
       "datatype" : "http://www.w3.org/2001/XMLSchema#decimal"
     }
      ] ,
@@ -11060,6 +11060,55 @@
      ]
   }
    ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "E_375"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "microgram PFOA equivalenten per kilogram nat gewicht" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
+      "type" : "literal" ,
+      "value" : "false" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
+      "type" : "literal" ,
+      "value" : "µg PFOA eq/kg ng"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#Eenheid"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
+    }
+     ]
+  }
+   ,
   "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_254" : { 
     "http://www.w3.org/2004/02/skos/core#notation" : [ { 
       "type" : "literal" ,
@@ -11442,6 +11491,55 @@
     "http://www.w3.org/2004/02/skos/core#broadMatch" : [ { 
       "type" : "uri" ,
       "value" : "http://qudt.org/vocab/unit/MilliGM-PER-L"
+    }
+     ]
+  }
+   ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "E_374"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "nanogram PFOA equivalent per kilogram nat gewicht" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
+      "type" : "literal" ,
+      "value" : "false" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
+      "type" : "literal" ,
+      "value" : "ng PFOA eq/kg ng"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#Eenheid"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
     }
      ]
   }
@@ -14413,6 +14511,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_368"
     }
     , { 
@@ -14825,6 +14927,10 @@
     , { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_160"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375"
     }
     , { 
       "type" : "uri" ,

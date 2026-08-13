@@ -1011,6 +1011,17 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
                 <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
         csor:symbool          "pg eq/g" .
 
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375>
+        rdf:type        skos:Concept , csor:Eenheid;
+        owl:deprecated  false;
+        skos:broader    <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81>;
+        skos:inScheme   <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
+        skos:notation   "E_375";
+        skos:prefLabel  "microgram PFOA equivalenten per kilogram nat gewicht"@nl;
+        csor:heeftNatuurkundigeDimensie
+                <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:symbool    "µg PFOA eq/kg ng" .
+
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_152>
         rdf:type         skos:Concept , csor:Eenheid;
         owl:deprecated   false;
@@ -1445,7 +1456,7 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
         rdf:type              csor:Eenheid , skos:Concept;
         owl:deprecated        false;
         skos:inScheme         <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
-        skos:narrower         <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_160> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_307> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_365>;
+        skos:narrower         <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_160> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_307> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_365>;
         skos:notation         "E_81";
         skos:prefLabel        "microgram equivalenten per kg"@nl;
         skos:topConceptOf     <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
@@ -1453,6 +1464,17 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
         csor:heeftNatuurkundigeDimensie
                 <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
         csor:symbool          "µg eq/kg" .
+
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374>
+        rdf:type        skos:Concept , csor:Eenheid;
+        owl:deprecated  false;
+        skos:broader    <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80>;
+        skos:inScheme   <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
+        skos:notation   "E_374";
+        skos:prefLabel  "nanogram PFOA equivalent per kilogram nat gewicht"@nl;
+        csor:heeftNatuurkundigeDimensie
+                <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23>;
+        csor:symbool    "ng PFOA eq/kg ng" .
 
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_151>
         rdf:type         skos:Concept , csor:Eenheid;
@@ -1905,7 +1927,7 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
         rdf:type              csor:Eenheid , skos:Concept;
         owl:deprecated        false;
         skos:inScheme         <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
-        skos:narrower         <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_368> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_159> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_190> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_191>;
+        skos:narrower         <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_368> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_159> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_190> , <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_191>;
         skos:notation         "E_80";
         skos:prefLabel        "nanogram equivalenten per kg"@nl;
         skos:topConceptOf     <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
@@ -3341,7 +3363,7 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
         skos:notation         "E_209";
         skos:prefLabel        "hectopascal"@nl;
         skos:topConceptOf     <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>;
-        csor:conversiefactor  0.01000000000000000000;
+        csor:conversiefactor  100.00000000000000000000;
         csor:heeftNatuurkundigeDimensie
                 <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33>;
         csor:symbool          "hPa" .

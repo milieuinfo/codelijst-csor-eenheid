@@ -850,6 +850,15 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82> <http://www.w3.org/2004/02/skos/core#prefLabel> "picogram equivalenten per gram"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_82> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/2004/02/skos/core#notation> "E_375" .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <http://www.w3.org/2004/02/skos/core#prefLabel> "microgram PFOA equivalenten per kilogram nat gewicht"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "µg PFOA eq/kg ng" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_152> <http://www.w3.org/2004/02/skos/core#prefLabel> "gram fosfor"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_152> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://qudt.org/vocab/unit/GM> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_152> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "gP" .
@@ -1216,6 +1225,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_375> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_160> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2004/02/skos/core#notation> "E_81" .
@@ -1226,6 +1236,15 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "µg eq/kg" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor> "1000.00000000000000000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_81> <http://www.w3.org/2004/02/skos/core#prefLabel> "microgram equivalenten per kg"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/2004/02/skos/core#notation> "E_374" .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanogram PFOA equivalent per kilogram nat gewicht"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "ng PFOA eq/kg ng" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_151> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "kgP" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_151> <http://www.w3.org/2004/02/skos/core#notation> "E_151" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_151> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -1607,6 +1626,7 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_368> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/2004/02/skos/core#prefLabel> "nanogram equivalenten per kg"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/2004/02/skos/core#narrower> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_374> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <http://www.w3.org/2004/02/skos/core#notation> "E_80" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_80> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_23> .
@@ -3013,8 +3033,8 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor> "100.00000000000000000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_33> .
-<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor> "0.01000000000000000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <http://www.w3.org/2004/02/skos/core#prefLabel> "hectopascal"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "hPa" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_209> <http://www.w3.org/2004/02/skos/core#notation> "E_209" .
