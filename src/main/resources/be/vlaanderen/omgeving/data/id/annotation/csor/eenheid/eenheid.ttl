@@ -1,0 +1,217 @@
+PREFIX :               <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid>
+PREFIX annotation:     <https://data.omgeving.vlaanderen.be/id/annotation/csor/>
+PREFIX csor:           <https://data.omgeving.vlaanderen.be/id/concept/csor/>
+PREFIX eenheid:        <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/>
+PREFIX dc:             <http://purl.org/dc/elements/1.1/>
+PREFIX oa:             <http://www.w3.org/ns/oa#>
+PREFIX skos:           <http://www.w3.org/2004/02/skos/core#>
+
+
+
+csor:rie-iepr-eenheden a skos:Concept ;
+    skos:prefLabel  "RIE-IEPR eenheden" .
+
+
+#Eenheid van capaciteit
+annotation:rie-iepr-eenheden-E_83 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van capaciteit"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_83;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_32 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van capaciteit"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_32;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_33 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van capaciteit"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_33;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_41 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van capaciteit"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_41;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van concentratie (lucht)
+annotation:rie-iepr-eenheden-E_172 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van concentratie (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_172;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_173 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van concentratie (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_173;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van concentratie (water)
+annotation:rie-iepr-eenheden-E_1 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van concentratie (water)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_1;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van debiet (lucht)
+annotation:rie-iepr-eenheden-E_175 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van debiet (water)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_175;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van debiet (water)
+annotation:rie-iepr-eenheden-E_50 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van capaciteit"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_50;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van emissie
+annotation:rie-iepr-eenheden-E_15 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van emissie"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_15;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_164 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van emissie"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_164;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van lengte
+annotation:rie-iepr-eenheden-E_59 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van lengte"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_59;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van vracht
+annotation:rie-iepr-eenheden-E_15 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van vracht"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_15;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van massastroom
+annotation:rie-iepr-eenheden-E_13 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van massastroom"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_13;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_176 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van massastroom"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_176;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van temperatuur
+annotation:rie-iepr-eenheden-E_62 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van temperatuur"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_62;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van tijdsduur
+annotation:rie-iepr-eenheden-E_94 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van tijdsduur"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_94;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van verbruik (lucht)
+annotation:rie-iepr-eenheden-E_89 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_89;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_41 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_41;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_33 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_33;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_59 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_59;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_95 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_95;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_32 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_32;
+ oa:motivatedBy  oa:classifying .
+
+annotation:rie-iepr-eenheden-E_58 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (lucht)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_58;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van verbruik (water)
+annotation:rie-iepr-eenheden-E_33 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van verbruik (water)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_33;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van vermogen (Type A - Productieeenheid)
+annotation:rie-iepr-eenheden-E_15 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van vermogen (Type A - Productieeenheid)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_15;
+ oa:motivatedBy  oa:classifying .
+
+#Eenheid van vermogen (Type B - Stookinstallaties)
+annotation:rie-iepr-eenheden-E_92 a oa:Annotation;
+ dc:source : ;
+ skos:prefLabel  "Eenheid van vermogen (Type B - Stookinstallaties)"@nl;
+ oa:hasBody  csor:rie-iepr-eenheden;
+ oa:hasTarget  eenheid:E_92;
+ oa:motivatedBy  oa:classifying .

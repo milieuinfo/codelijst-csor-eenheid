@@ -1,0 +1,56 @@
+Eenheid van capaciteit
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_83
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_32
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_33
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_41
+
+Eenheid van concentratie (lucht)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_172
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_173
+
+Eenheid van concentratie (water)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_1
+
+Eenheid van debiet (lucht)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_175
+
+Eenheid van debiet (water)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_50
+
+Eenheid van emissie 
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_15
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_164
+
+Eenheid van lengte
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_59
+
+Eenheid van vracht
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_15
+
+Eenheid van massastroom
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_13
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_176
+
+Eenheid van temperatuur
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_62
+
+Eenheid van tijdsduur
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_94
+
+Eenheid van verbruik (lucht)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_89
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_41
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_33
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_59
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_95
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_32
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_58
+
+Eenheid van verbruik (water)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_33
+
+Eenheid van vermogen (Type A - Productieeenheid)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_15
+
+Eenheid van vermogen (Type B - Stookinstallaties)
+https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_92
