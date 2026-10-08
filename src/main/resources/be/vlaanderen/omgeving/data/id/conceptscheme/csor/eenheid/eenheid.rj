@@ -2181,6 +2181,11 @@
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
     }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broadMatch" : [ { 
+      "type" : "uri" ,
+      "value" : "http://qudt.org/vocab/unit/NanoGM-PER-M3"
+    }
      ]
   }
    ,
@@ -2194,6 +2199,11 @@
       "type" : "literal" ,
       "value" : "0.00000000100000000000" ,
       "datatype" : "http://www.w3.org/2001/XMLSchema#decimal"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ { 
+      "type" : "uri" ,
+      "value" : "http://qudt.org/vocab/unit/NanoGM-PER-M3"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
@@ -4037,15 +4047,15 @@
       "lang" : "nl"
     }
      ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_204"
+    }
+     ] ,
     "http://www.w3.org/2002/07/owl#deprecated" : [ { 
       "type" : "literal" ,
       "value" : "false" ,
       "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_204"
     }
      ] ,
     "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
@@ -4065,6 +4075,11 @@
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broadMatch" : [ { 
+      "type" : "uri" ,
+      "value" : "http://qudt.org/vocab/unit/NanoGM-PER-M3"
     }
      ]
   }
@@ -5709,6 +5724,10 @@
     }
     , { 
       "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376"
+    }
+    , { 
+      "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_255"
     }
     , { 
@@ -6278,15 +6297,15 @@
       "lang" : "nl"
     }
      ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_204"
+    }
+     ] ,
     "http://www.w3.org/2002/07/owl#deprecated" : [ { 
       "type" : "literal" ,
       "value" : "false" ,
       "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
-    }
-     ] ,
-    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
-      "type" : "uri" ,
-      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_204"
     }
      ] ,
     "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
@@ -6306,6 +6325,11 @@
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
       "type" : "uri" ,
       "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broadMatch" : [ { 
+      "type" : "uri" ,
+      "value" : "http://qudt.org/vocab/unit/NanoGM-PER-M3"
     }
      ]
   }
@@ -11219,6 +11243,55 @@
     "http://www.w3.org/2004/02/skos/core#broadMatch" : [ { 
       "type" : "uri" ,
       "value" : "http://qudt.org/vocab/unit/MicroGM-PER-KiloGM"
+    }
+     ]
+  }
+   ,
+  "https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_376" : { 
+    "http://www.w3.org/2004/02/skos/core#notation" : [ { 
+      "type" : "literal" ,
+      "value" : "E_376"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_29"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "terajoule per jaar" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/2002/07/owl#deprecated" : [ { 
+      "type" : "literal" ,
+      "value" : "false" ,
+      "datatype" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+     ] ,
+    "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
+      "type" : "literal" ,
+      "value" : "TJ/jr"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/ns/csor#Eenheid"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
+      "type" : "uri" ,
+      "value" : "https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid"
     }
      ]
   }
