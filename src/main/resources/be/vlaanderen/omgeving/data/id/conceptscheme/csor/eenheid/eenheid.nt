@@ -1308,7 +1308,6 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> <http://www.w3.org/2004/02/skos/core#notation> "E_30" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> <http://www.w3.org/2004/02/skos/core#topConceptOf> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_30> <https://data.omgeving.vlaanderen.be/ns/csor#conversiefactor> "0.00100000000000000000"^^<http://www.w3.org/2001/XMLSchema#decimal> .
-<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "mg Cl/kg" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/2004/02/skos/core#notation> "E_323" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/2004/02/skos/core#inScheme> <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/2004/02/skos/core#broader> <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_1> .
@@ -1316,8 +1315,9 @@
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/2002/07/owl#deprecated> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://data.omgeving.vlaanderen.be/ns/csor#Eenheid> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
-<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <http://www.w3.org/2004/02/skos/core#prefLabel> "milligram koolstofdisulfide per liter"@nl .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1> .
+<https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_323> <https://data.omgeving.vlaanderen.be/ns/csor#symbool> "mgCS2/L" .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_100> <https://data.omgeving.vlaanderen.be/ns/csor#heeftNatuurkundigeDimensie> <https://data.omgeving.vlaanderen.be/id/concept/csor/natuurkundigedimensie/ND_1> .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_100> <http://www.w3.org/2004/02/skos/core#prefLabel> "milligram koolstof per liter"@nl .
 <https://data.omgeving.vlaanderen.be/id/concept/csor/eenheid/E_100> <http://www.w3.org/2004/02/skos/core#broadMatch> <http://qudt.org/vocab/unit/MilliGM-PER-L> .

@@ -2401,7 +2401,7 @@
      ] ,
     "https://data.omgeving.vlaanderen.be/ns/csor#symbool" : [ { 
       "type" : "literal" ,
-      "value" : "mg Cl/kg"
+      "value" : "mgCS2/L"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ { 
